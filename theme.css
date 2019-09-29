@@ -1,0 +1,467 @@
+.repohead.experiment-repo-nav {
+  background-color: #24292e;
+}
+
+.timeline-comment-wrapper,
+.tabnav,
+.pagehead,
+.overall-summary,
+.Box,
+.Box-body,
+.commit-tease .js-details-container .Details .d-flex .rounded-top-1,
+.reponav-item.selected {
+  border-color: hsl(210, 12%, 8%);
+}
+
+.repository-lang-stats-graph .language-color:last-child,
+.repository-lang-stats-graph .language-color:last-child {
+  border-radius: 0;
+}
+
+.numbers-summary li > .nolink,
+.numbers-summary li > a,
+.breadcrumb strong.final-path,
+.table-list-header-toggle .btn-link.selected,
+.table-list-header-toggle .btn-link.selected:hover,
+.text-emphasized {
+  color: hsl(210, 5%, 60%);
+}
+
+.up-tree .js-navigation-item .navigation-focus {
+  border-top-color: transparent;
+}
+
+body .btn {
+  color: rgb(214, 216, 218) !important;
+  background-image: linear-gradient(-180deg, hsl(210, 10%, 30%) 0%, rgb(66, 69, 73) 90%) !important;
+}
+
+.btn-link:hover {
+  color: hsl(210, 5%, 95%) !important;
+}
+
+.social-count:hover {
+  color: #24292e;
+}
+
+.commit-tease,
+.filter-bar {
+  background-color: transparent;
+}
+
+.commit-tease span {
+  color: hsl(210, 10%, 75%);
+}
+
+.ellipsis-expander,
+.hidden-text-expander a {
+  background-color: hsla(210, 50%, 50%, 25%);
+  color: hsl(210, 25%, 50%);
+}
+
+table.files {
+  background: transparent;
+}
+
+table.files td {
+  border-top-color: transparent;
+}
+
+table.files td.icon,
+table.files td.icon .octicon-file-directory {
+  color: hsla(210, 50%, 50%, 90%);
+}
+
+table.files tr.navigation-focus td,
+table.files tr[aria-selected=true] td,
+.subnav-item:hover,
+.muted-link:hover,
+.Label:hover,
+input[type=text],
+textarea,
+input[type=file],
+.write-tab,
+.preview-tab,
+.bg-gray,
+.pagehead-tabs-item,
+.Box-body,
+.Box-row--focus-gray.navigation-focus {
+  background-color: hsla(210, 50%, 50%, 10%)!important;
+}
+
+.CodeMirror {
+  background-color: hsla(210, 50%, 50%, 20%)!important;
+}
+
+.CodeMirror-gutters {
+  background-color: hsla(210, 50%, 50%, 10%)!important;
+}
+
+.pagehead-tabs-item {
+  border-radius: 0;
+}
+
+.pagehead-tabs-item:hover {
+  background-color: hsla(210, 50%, 50%, 15%)!important;
+}
+
+.pl-c/* comment, punctuation.definition.comment, string.comment */
+{
+  color: #959da5;
+}
+
+.pl-c1/* constant, entity.name.constant, variable.other.constant, variable.language, support, meta.property-name, support.constant, support.variable, meta.module-reference, markup.quote, markup.raw, meta.diff.header */
+,
+.pl-s .pl-v/* string variable */
+{
+  color: #c8e1ff;
+}
+
+.pl-e/* entity */
+,
+.pl-en/* entity.name */
+{
+  color: #b392f0;
+}
+
+.pl-smi/* variable.parameter.function, storage.modifier.package, storage.modifier.import, storage.type.java, variable.other */
+,
+.blob-code,
+.pl-s .pl-s1/* string source */
+{
+  color: #f6f8fa;
+}
+
+.pl-ent/* entity.name.tag */
+{
+  color: #7bcc72;
+}
+
+.pl-k/* keyword, storage, storage.type */
+{
+  color: #ea4a5a;
+}
+
+.pl-s/* string */
+,
+.pl-pds/* punctuation.definition.string, source.regexp, string.regexp.character-class */
+,
+.pl-s .pl-pse .pl-s1/* string punctuation.section.embedded source */
+,
+.pl-sr/* string.regexp */
+,
+.pl-sr .pl-cce/* string.regexp constant.character.escape */
+,
+.pl-sr .pl-sre/* string.regexp source.ruby.embedded */
+,
+.pl-sr .pl-sra/* string.regexp string.regexp.arbitrary-repitition */
+{
+  color: #79b8ff;
+}
+
+.pl-v/* variable */
+,
+.pl-ml/* markup.list, sublimelinter.mark.warning */
+{
+  color: #fb8532;
+}
+
+.pl-bu/* invalid.broken, invalid.deprecated, invalid.unimplemented, message.error, brackethighlighter.unmatched, sublimelinter.mark.error */
+{
+  color: #d73a49;
+}
+
+.pl-ii/* invalid.illegal */
+{
+  color: #fafbfc;
+  background-color: #d73a49;
+}
+
+.pl-c2/* carriage-return */
+{
+  color: #fafbfc;
+  background-color: #d73a49;
+}
+
+.pl-c2::before/* carriage-return */
+{
+  content: "^M";
+}
+
+.pl-sr .pl-cce/* string.regexp constant.character.escape */
+{
+  font-weight: bold;
+  color: #7bcc72;
+}
+
+.pl-mh/* markup.heading */
+,
+.pl-mh .pl-en/* markup.heading entity.name */
+,
+.pl-ms/* meta.separator */
+{
+  font-weight: bold;
+  color: #0366d6;
+}
+
+.pl-mi/* markup.italic */
+{
+  font-style: italic;
+  color: #f6f8fa;
+}
+
+.pl-mb/* markup.bold */
+{
+  font-weight: bold;
+  color: #f6f8fa;
+}
+
+.pl-md/* markup.deleted, meta.diff.header.from-file, punctuation.definition.deleted */
+{
+  color: #b31d28;
+  background-color: #ffeef0;
+}
+
+.pl-mi1/* markup.inserted, meta.diff.header.to-file, punctuation.definition.inserted */
+{
+  color: #176f2c;
+  background-color: #f0fff4;
+}
+
+.pl-mc/* markup.changed, punctuation.definition.changed */
+{
+  color: #b08800;
+  background-color: #fffdef;
+}
+
+.pl-mi2/* markup.ignored, markup.untracked */
+{
+  color: #2f363d;
+  background-color: #959da5;
+}
+
+.pl-mdr/* meta.diff.range */
+{
+  font-weight: bold;
+  color: #b392f0;
+}
+
+.pl-mo/* meta.output */
+{
+  color: #0366d6;
+}
+
+.pl-ba/* brackethighlighter.tag, brackethighlighter.curly, brackethighlighter.round, brackethighlighter.square, brackethighlighter.angle, brackethighlighter.quote */
+{
+  color: #ffeef0;
+}
+
+.pl-sg/* sublimelinter.gutter-mark */
+{
+  color: #6a737d;
+}
+
+.pl-corl/* constant.other.reference.link, string.other.link */
+{
+  text-decoration: underline;
+  color: #79b8ff;
+}
+
+.reponav-item .Counter {
+  color: hsl(210, 10%, 50%);
+}
+
+.repository-lang-stats-graph {
+  border-color: hsl(210, 12%, 25%);
+}
+
+.tabnav-pr .tabnav-tab.selected,
+.reponav-item .octicon {
+  border-color: hsl(210, 12%, 8%);
+  color: hsl(210, 10%, 80%);
+}
+
+.diff-view {
+  background-color: #fff;
+}
+
+body,
+a,
+input[type=text],
+textarea,
+.reponav-item,
+.reponav-item.selected,
+.discussion-sidebar-heading,
+.CodeMirror-line,
+.tabnav-pr .tabnav-tab {
+  color: hsl(210, 10%, 80%)!important;
+}
+
+.UnderlineNav,
+.user-profile-sticky-bar::after {
+  background-color: rgb(36, 41, 46);
+  border: none;
+}
+
+.Box a {
+  color: hsl(210, 50%, 70%);
+}
+
+.discussion-sidebar-item,
+.UnderlineNav-item.selected {
+  color: hsl(210, 10%, 70%);
+}
+
+.pagehead-tabs-item {
+  border-left-color: transparent!important;
+  border-right-color: transparent!important;
+}
+
+a:hover,
+.reponav-item:hover {
+  color: #fff!important;
+}
+
+.repository-content a {
+  color: hsl(210, 40%, 55%);
+}
+
+.gh-header-meta {
+  color: #eee!important;
+}
+
+.link-gray,
+.text-gray,
+.user-status-message-wrapper,
+.pagehead-tabs-item,
+.user-mention,
+.write-tab,
+.preview-tab,
+.comment-body,
+.text-gray-dark,
+.blob-num,
+.link-gray-dark {
+  color: hsl(0, 0%, 90%)!important;
+}
+
+.muted-link {
+  color: hsl(210, 5%, 60%)!important;
+}
+
+.ghh-repo-x {
+  padding: 0 5px 0 5px;
+}
+
+.commit-ref {
+  background-color: hsl(210, 12%, 16%);
+  font-weight: bold;
+}
+
+.block-diff-neutral,
+.block-diff-deleted,
+.block-diff-added {
+  margin: 0;
+}
+
+.response-item {
+  background-color: hsl(210, 12%, 8%);
+}
+
+.markdown-body code,
+.markdown-body tt {
+  background-color: hsla(210, 12%, 20%, 5);
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  border-bottom-color: hsla(210, 12%, 20%, 5);
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: hsl(210, 12%, 20%);
+}
+
+.IssueLabel {
+  color: hsl(0, 0%, 10%)!important;
+}
+
+.IssueLabel:hover {
+  color: hsl(0, 0%, 10%)!important;
+  transform: scale(1.15);
+}
+
+.Box-header,
+.subnav-item,
+.rgh-collaborator,
+.js-navigation-item,
+.Label,
+.gh-header-meta,
+.commit-tease,
+.filter-bar,
+.border-top,
+.file-wrap,
+.release-main-section,
+.UnderlineNav,
+.contribution-activity-show-more,
+.border-gray-dark,
+.border-bottom,
+.border,
+.avatar,
+.file-header,
+.file,
+.discussion-timeline-actions,
+.write-tab,
+.preview-tab,
+.file-github-wide-header-css,
+input[type=text],
+textarea,
+.timeline-comment,
+.dashboard .js-all-activity-header + div,
+.comment-body,
+input[type=file],
+.body,
+.Box-row {
+  border-color: transparent!important;
+}
+
+
+.topic-tag,
+.profile-timeline-year-list,
+h3.profile-timeline-month-heading::after,
+.pagehead,
+.ordhead,
+.comment-form-head,
+.CodeMirror-lines,
+.CodeMirror-scroll,
+.timeline-comment,
+.commit-create,
+.dashboard .js-all-activity-header + div,
+.CodeMirror-gutter,
+.Box-header {
+  background-color: transparent!important;
+}
+
+.dashboard .js-all-activity-header + div .Box {
+  padding: 10px!important;
+}
+
+
+body,
+.Box,
+.diffbar,
+.discussion-timeline-actions,
+.gh-header,
+.markdown-body img,
+.pr-toolbar,
+.file-header,
+.profile-timeline-month-heading,
+.dashboard-sidebar,
+.reponav-item.selected {
+  background-color: hsl(210, 12%, 8%)!important;
+}
+
+
+.dashboard-sidebar {
+  overflow: hidden;
+}
